@@ -12,15 +12,16 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [setIndex] = useState(1);
   const toRotate = [ "UNOWNED" ];
-  const period = 1000;
+  const period = 2000;
 
-  useEffect(() => {
+ useEffect(() => {
     let ticker = setInterval(() => {
       tick();
     }, delta);
 
     return () => { clearInterval(ticker) };
   }, [text])
+
 
   const tick = () => {
     let i = loopNum % toRotate.length;
