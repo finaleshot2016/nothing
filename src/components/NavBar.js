@@ -51,7 +51,7 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://twitter.com/TheUnownedERC20" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="/" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
+                <a href="/"><img src={navIcon2} alt="/" /></a>
                 <a href="https://medium.com/@TheUnowned/unowned-e2080fb81d8e" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="/" /></a>
               </div>
             </span>
