@@ -20,7 +20,7 @@ export const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  }, [delta, tick, text])
+  }, [delta, text])
 
 
   const tick = () => {
